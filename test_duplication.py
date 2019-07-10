@@ -6,9 +6,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///book.sqlite'
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root@localhost/book'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
-
+# test
+# test
 class Contact(db.Model):
-
 
     __tablename__ = 'contacts'
 
