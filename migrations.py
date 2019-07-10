@@ -42,3 +42,4 @@ for num in range(100):
     db.session.add(mi_contacto)
 
 db.session.commit()
+#test
