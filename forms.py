@@ -1,7 +1,10 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField
 from wtforms.validators import DataRequired, Email, Length
-
+#hfhff
+#ggggg
+# Comments added to test issues
+#fdfhdfhfdhd
 
 class ContactForm(FlaskForm):
     name = StringField('Name', validators=[DataRequired(), Length(min=-1, max=80, message='You cannot have more than 80 characters')])
